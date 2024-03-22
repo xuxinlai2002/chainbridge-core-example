@@ -1,0 +1,29 @@
+{
+  "relayer": {},
+  "chains": [
+    {
+      "name": "merlinTestNet",
+      "type": "evm",
+      "id": 1,
+      "endpoint": "https://testnet-rpc.merlinchain.io",
+      "from": "0xC4644bF39c6A4a082d066BFF88ac55Fe166C6ade",
+      "bridge": "0x5aAa00A5Ff9d121a100614a74a67463661484700",
+      "erc20Handler": "0xCB8a5f0F66758399014DffAa6ecFf490538663c5",
+      "gasLimit": 3000000,
+      "maxGasPrice": 100000000,
+      "blockConfirmations": 10
+    },
+    {
+      "name": "bscTestNet",
+      "type": "evm",
+      "id": 2,
+      "endpoint": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+      "from": "0xC4644bF39c6A4a082d066BFF88ac55Fe166C6ade",
+      "bridge": "0xb97fA2829F53F0e30C9e766D23F11fCe481b923a",
+      "erc20Handler": "0x541292cf622Df8118428974cE315183383a08695",
+      "gasLimit": 4000000,
+      "maxGasPrice": 10000000000,
+      "blockConfirmations": 10
+    }
+  ]
+}
